@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+
+#nav_links {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#contact-btn {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #333333;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 26px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #000;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+  }
+
+.overlay__content li{
+  list-style: none;
+}
+
+#nav_item {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav_item:hover {
+    border-bottom: rgb(255, 173, 21) solid 3px;
+    margin-bottom:-3px;
+}
+
+#nav_link_active {
+    border-bottom: rgb(255, 173, 21) solid 3px;
+    margin-bottom:-3px;
+    margin-right: 10px;
+}
+
+#nav_item_active {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: rgb(255, 173, 21) solid 3px;
+    margin-bottom:-3px;
+}
+
+#nav_link {
+    color: #fff;
+}
+
+#nav_link:hover {
+    border-bottom: rgb(255, 173, 21) solid 3px;
+    margin-bottom:-3px;
+}
+
+#contact-btn {
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    background-color: rgb(255, 173, 21);
+    border: none;
+    transition: background-color 0.3s ease 0s;
+}
+
+#contact-btn:hover {
+    background-color: rgb(223, 145, 0);
+}
+
+#contact-btn-mobile {
+    width: 220px;
+    height: 35px;
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(255, 173, 21);
+    border: none;
+    margin: 15px;
+    transition: background-color 0.3s ease 0s;
+}
+
+#contact-btn-mobile:hover {
+    background-color: rgb(223, 145, 0);
+}
+
+
+
+
+
+
+
+
+
+
